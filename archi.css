@@ -1,0 +1,73 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  background-color: rgba(172, 154, 177, 0.1);
+  padding: 50px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin-right: 30px;
+  font-weight: 500px;
+  font-size: 18px;
+}
+nav a {
+  text-decoration: none;
+  color: #424242;
+}
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-contain {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+img {
+  align-items: center;
+  width: 54rem;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description {
+  color: #727272;
+}
+.btn-primary{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF900E;
+    padding: 15px 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 1.4rem;
+}
+.banner img{
+    width: 100%;
+}
+@media screen and (max-width:576px ){
+    .header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px) and (max-width: 960px){
+    nav{
+      flex-direction: column;
+    }
+}
