@@ -160,3 +160,130 @@ margin-top: 2%;
   margin-top: 50px;
   gap: 4%;
 }
+
+@media screen and (max-width: 767px) {
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    padding: 10px 10px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .responsive {
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+  }
+
+  .tenyear {
+    width: 100%;
+    margin-bottom: 20px;
+    bottom: 0;
+  }
+
+  .facts-card-container {
+    flex-direction: column;
+  }
+
+  .sponsor {
+    margin: 4% 0;
+  }
+}
+
+/* Medium screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 30px 120px;
+  }
+
+  nav li {
+    font-size: 16px;
+  }
+
+  .banner-title {
+    font-size: 3rem;
+  }
+
+  .btn-primary {
+    font-size: 1.1rem;
+    padding: 12px 20px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .features {
+    gap: 50px;
+  }
+
+  .frature-content .card {
+    padding: 20px;
+  }
+
+  .tenyear {
+    padding: 30px;
+    bottom: 80px;
+  }
+
+  .year {
+    font-size: 2.5rem;
+  }
+
+  .facts-card-container .card {
+    padding: 20px;
+  }
+
+  .facts-card-containe .card-stats {
+    font-size: 2.5rem;
+  }
+
+  .facts-card-containe .card-title {
+    font-size: 1.5rem;
+  }
+
+  .sponsor {
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .sponsor-img-container {
+    margin-top: 30px;
+  }
+}
+
+
+
+
+/* Large screens */
+@media screen and (min-width: 1024px) {
+  /* Add your styles for large screens here */
+}
